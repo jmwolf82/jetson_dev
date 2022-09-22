@@ -4,6 +4,7 @@ This repo is an experimentation repo for development with the Jetson Xavier AGX 
 
 - [x] FashionMNIST ANN Quickstart notebook
 - [x] FashionMNIST ANN Quickstart notebook MAXV power mode
+- [ ] MNIST CNN notebook WIP (Work In Progress)
 
 ## remote host to jupyter notebook
 

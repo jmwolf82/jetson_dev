@@ -17,6 +17,6 @@ jupyter-lab
 <br>
 SSH into jupyter remote server
 <br>
-ssh -N -L localhost:<local-port>:localhost:<remote-port> <remote-user>@<remote-host>
+ssh -N -L localhost:'local-port':localhost:'remote-port' 'remote-user'@'remote-host'
 <br>
 Open 'localhost:<local-port>/' in the browser

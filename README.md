@@ -8,9 +8,15 @@ This repo is an experimentation repo for development with the Jetson Xavier AGX 
 ## remote host to jupyter notebook
 
 SSH into Jetson Xavier 
-<code>ssh <remote-user>@<remote-host><code>
+<br>
+ssh remote-user@remote-host
+<br>
 Run jupyter lab from the desired folder
-<code>jupyter-lab<code>
-SSH into jupyter remote server 
-<code> ssh -N -L localhost:<local-port>:localhost:<remote-port> <remote-user>@<remote-host><code>
-Open <code>http://localhost:<local-port>/<code> in the browser
+<br>
+jupyter-lab
+<br>
+SSH into jupyter remote server
+<br>
+ssh -N -L localhost:<local-port>:localhost:<remote-port> <remote-user>@<remote-host>
+<br>
+Open 'localhost:<local-port>/' in the browser
